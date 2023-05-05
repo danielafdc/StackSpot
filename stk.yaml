@@ -1,0 +1,14 @@
+applied_templates:
+- inputs: {}
+  template_data_path: ''
+- inputs:
+    any_list:
+    - item1
+    - item2
+    any_number: 5
+    example: any
+  template_data_path: stack/hello-stacker-plugin
+global_computed_inputs: {}
+global_inputs: {}
+stack: stack-spot
+stack_type: app
